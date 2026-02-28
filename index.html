@@ -1,18 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 | Personal Homepage</title>
+    <title>Lefini Wild</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-    <h1>Welcome to SEPH ZONE 130.</h1>
-    <p>This page will become your homepage for the course. You will remove this text and replace it
-        with your own personal details.</p>
+    <h1>Bienvenue à Lefini Wild 🌿</h1>
 
-    <img src="images/salt-lake-temple.jpg" alt="The Salt Lake Temple.">
+    <section>
+        <h2>À propos de la réserve</h2>
+        <p>
+            La réserve de la Lefini se situe au cœur du Congo, entourée par une nature luxuriante et
+            des paysages sauvages à couper le souffle. Ici, entre rivières scintillantes et forêts
+            profondes, la vie animale s’épanouit librement.
+        </p>
+        <p>
+            Visitez la belle réserve de la Lefini et laissez-vous emporter par un monde sauvage où
+            chaque arbre, chaque rivière et chaque cri d’animal raconte une histoire. À Lefini Wild,
+            l’aventure vous attend à chaque pas.
+        </p>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lefini_River_%2825583791878%29.jpg/330px-Lefini_River_%2825583791878%29.jpg"
+          alt="Forêt Lefini Wild">
+    </section>
+
+    <!-- PNJ Lefi -->
+    <div id="lefi">
+        <strong>Lefi</strong> 🐾
+        <div id="dialogue">Clique pour parler avec moi !</div>
+        <button onclick="parler()">Parler à Lefi</button>
+    </div>
+
+    <footer>
+        © 2026 Lefini Wild - Tous droits réservés
+    </footer>
+
+    <script>
+        const dialogues = [
+            "Salut aventurier ! Prêt pour découvrir les trésors de la forêt ?",
+            "Écoute… entends-tu le cri du singe bleu ?",
+            "Chaque arbre ici a une histoire… veux-tu que je te raconte celle du grand iroko ?",
+            "Petit défi : trouve-moi les traces de l’éléphant sur cette page !",
+            "La nature est magnifique… prends le temps de l’admirer !"
+        ];
+
+        function parler() {
+            const index = Math.floor(Math.random() * dialogues.length);
+            document.getElementById('dialogue').innerText = dialogues[index];
+        }
+    </script>
 </body>
 
 </html>
