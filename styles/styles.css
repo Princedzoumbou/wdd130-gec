@@ -1,90 +1,33 @@
-/* Styles généraux */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #d0f0c0, #4a7729);
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    line-height: 1.6;
+main {
+  max-width: 840px;
 }
 
-h1,
-h2 {
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
+main img {
+  width: 150px;
+  height: auto;
 }
 
-section {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    text-align: center;
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
 }
 
 p {
-    font-size: 18px;
-    margin-bottom: 20px;
+  padding: 0;
 }
 
-img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    margin: 20px 0;
-}
-
-/* Boutons */
-button {
-    background-color: #4a7729;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    background-color: #36601b;
-    transform: scale(1.05);
-}
-
-/* PNJ Lefi */
-#lefi {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(255, 255, 255, 0.95);
-    color: #333;
-    padding: 15px;
-    border-radius: 15px;
-    width: 250px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-}
-
-#lefi:hover {
-    transform: scale(1.05);
-}
-
-#dialogue {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #1b3e1b;
-}
-
-/* Pied de page */
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(26, 55, 26, 0.9);
-    color: #fff;
-    font-size: 14px;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }

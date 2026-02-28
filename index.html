@@ -2,42 +2,48 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lefini Wild</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lefini Wild</title>
+  <meta name="description" content="Prince Dzoumbou WDD130 course home page showcasing HTML and CSS learning project.">
+  <meta name="author" content="Prince Dzoumbou">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
+  <header>
     <h1>Bienvenue à Lefini Wild 🌿</h1>
+  </header>
 
+  <main>
     <section>
-        <h2>À propos de la réserve</h2>
-        <p>
-            La réserve de la Lefini se situe au cœur du Congo, entourée par une nature luxuriante et
-            des paysages sauvages à couper le souffle. Ici, entre rivières scintillantes et forêts
-            profondes, la vie animale s’épanouit librement.
-        </p>
-        <p>
-            Visitez la belle réserve de la Lefini et laissez-vous emporter par un monde sauvage où
-            chaque arbre, chaque rivière et chaque cri d’animal raconte une histoire. À Lefini Wild,
-            l’aventure vous attend à chaque pas.
-        </p>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lefini_River_%2825583791878%29.jpg/330px-Lefini_River_%2825583791878%29.jpg"
-          alt="Forêt Lefini Wild">
+      <h2>À propos de la réserve</h2>
+      <p>La réserve de la Lefini ...</p>
+      <p>Visitez la belle réserve ...</p>
+      <img src="images/foret.jpg" alt="Forêt Lefini Wild">
     </section>
+  </main>
 
-    <!-- PNJ Lefi -->
-    <div id="lefi">
-        <strong>Lefi</strong> 🐾
-        <div id="dialogue">Clique pour parler avec moi !</div>
-        <button onclick="parler()">Parler à Lefi</button>
-    </div>
+  <aside>
+    <h2>République du Congo</h2>
+    <img src="images/congo.jpg" alt="Paysage du Congo">
+    <p>
+      La République du Congo est un pays d'Afrique centrale. 
+      Elle possède une grande richesse naturelle avec des forêts 
+      tropicales, des rivières magnifiques et une culture vibrante.
+    </p>
+  </aside>
 
-    <footer>
-        © 2026 Lefini Wild - Tous droits réservés
-    </footer>
+  <!-- PNJ Lefi -->
+  <div id="lefi">
+    <strong>Lefi</strong> 🐾
+    <div id="dialogue">Clique pour parler avec moi !</div>
+    <button onclick="parler()">Parler à Lefi</button>
+  </div>
+
+  <footer>
+    © 2026 Lefini Wild - Tous droits réservés
+  </footer>
 
     <script>
         const dialogues = [
